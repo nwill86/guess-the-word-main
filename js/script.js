@@ -59,7 +59,7 @@ const validateInput = function (input) {
 
     if (input === 0) {
         message.innerText = "Please enter a letter.";
-    } else if (input.lenth > 1) {
+    } else if (input.length > 1) {
         message.innerText = "Please enter a single letter.";
     } else if (!input.match(acceptedLetter)) {
         message.innerText = "Please enter a letter from A to Z.";
